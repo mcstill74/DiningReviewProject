@@ -1,0 +1,13 @@
+INSERT INTO reviewer(ID,user_name,name,city,state,zip_code,peanut_allergy,egg_allergy,dairy_allergy ) VALUES (1001, 'USER1', 'Michael Meyers', 'Kansas City', 'KS', '66106', TRUE, FALSE, TRUE);
+INSERT INTO reviewer(ID,user_name,name,city,state,zip_code,peanut_allergy,egg_allergy,dairy_allergy ) VALUES (1002, 'USER2', 'Sue Higgins', 'Kansas City', 'MO', '64105', FALSE, FALSE, FALSE);
+INSERT INTO reviewer(ID,user_name,name,city,state,zip_code,peanut_allergy,egg_allergy,dairy_allergy ) VALUES (1003, 'USER3', 'Tim Burks', 'Shawnee', 'KS', '66216', FALSE, TRUE, FALSE);
+INSERT INTO reviewer(ID,user_name,name,city,state,zip_code,peanut_allergy,egg_allergy,dairy_allergy ) VALUES (1004, 'USER4', 'Ashley McBride', 'Raytown', 'MO', '64133', TRUE, TRUE, TRUE);
+INSERT INTO restaurant(ID,name,address,city,state,zip_code,cuisine,egg,peanut,dairy,egg_count,peanut_count,dairy_count,overall_score) VALUES (2001,'El Ranchero','1707 w 7 hwy','Blue Springs', 'MO', 64014, 'Mexican', 0 , 0, 0, 0 , 0, 0, 0);
+INSERT INTO restaurant(ID,name,address,city,state,zip_code,cuisine,egg,peanut,dairy,egg_count,peanut_count,dairy_count,overall_score) VALUES (2002,'Dairy Queen','10350 NE Cookingham Dr,','Kansas City', 'MO', 64157, 'Fast food', 0 , 0, 0, 0 , 0, 0, 0);
+INSERT INTO restaurant(ID,name,address,city,state,zip_code,cuisine,egg,peanut,dairy,egg_count,peanut_count,dairy_count,overall_score) VALUES (2003,'Applebees','1100 NW Hwy 7','Blue Springs', 'MO', 64014, 'Casual Dining', 0 , 0, 0, 0 , 0, 0, 0);
+INSERT INTO restaurant(ID,name,address,city,state,zip_code,cuisine,egg,peanut,dairy,egg_count,peanut_count,dairy_count,overall_score) VALUES (2004,'Olive Garden','15090 W 119th St','Olathe', 'KS', 66062, 'Italian',  0 , 0, 0, 0 , 0, 0, 0);
+INSERT INTO restaurant(ID,name,address,city,state,zip_code,cuisine,egg,peanut,dairy,egg_count,peanut_count,dairy_count,overall_score) VALUES (2005,'Red Lobster','670 NW Blue Pkwy','Lees Summit', 'MO', 64086, 'Casual Dining',  0 , 0, 0, 0 , 0, 0, 0);
+INSERT INTO review(ID,submitter,restaurant_id,peanut_score,egg_score,dairy_score,comment,status) VALUES (3001,'USER1','2001',0, 2, 2, 'Clean and staff friendly', 1);
+INSERT INTO review(ID,submitter,restaurant_id,peanut_score,egg_score,dairy_score,comment,status) VALUES (3002,'USER2','2002', 2, 2, 5, 'Tasty treat!', 1);
+INSERT INTO review(ID,submitter,restaurant_id,peanut_score,egg_score,dairy_score,comment,status) VALUES (3003,'USER3','2004', 1, 3, 3, 'Love the breadsticks', 1);
+INSERT INTO review(ID,submitter,restaurant_id,peanut_score,egg_score,dairy_score,comment,status) VALUES (3004,'USER4','2003', 2, 2, 2, 'Staff friendly', 1);
